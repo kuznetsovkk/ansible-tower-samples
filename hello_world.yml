@@ -1,7 +1,51 @@
 - name: Hello World Sample
   hosts: all
   tasks:
-    - name: Hello Message
+    - name: Hello Message 1
       debug:
         msg: "Hello World!"
+
+    - name: sleep 5
+      pause:
+        seconds: 5
+
+    - name: Hello Message 2
+      debug:
+        msg: "Hello World!"
+
+    - name: sleep 5
+      pause:
+        seconds: 5
+
+    - name: Hello Message 3
+      debug:
+        msg: "Hello World!"
+
+    - name: sleep 5
+      pause:
+        seconds: 5
+
+    - name: Hello Message 4
+      debug:
+        msg: "Hello World!"
+
+    - name: sleep 5
+      pause:
+        seconds: 5
+
+    - name: Hello Message 5
+      debug:
+        msg: "Hello World!"
+
+    - name: sleep 5
+      pause:
+        seconds: 5
+
+    - name: Hello Message 6
+      debug:
+        msg: "Hello World!"
+
+    - name: sleep 5
+      pause:
+        seconds: 5
 
